@@ -6,9 +6,9 @@ def linear_search(alist, key):
 alist = input('Enter the list of numbers: ')
 alist = alist.split()
 alist = [int(x) for x in alist]
-key = int(input('The number to search for: '))
+key = int(input('The number to be search for: '))
 index = linear_search(alist, key)
 if index < 0:
-    print('{} was not found '.format(key))
+    print('{} was not found any '.format(key))
 else:
-    print('{} was found at index {} at.'.format(key, index))
+    print('{} was found at index {} one at.'.format(key, index))
